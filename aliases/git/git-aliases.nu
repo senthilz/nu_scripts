@@ -104,7 +104,6 @@ export alias ghh = git help
 
 export alias gignore = git update-index --assume-unchanged
 
-export alias gl = git log
 export alias glg = git log --stat
 export alias glgp = git log --stat --patch
 export alias glgg = git log --graph
@@ -132,7 +131,7 @@ export alias gp = git push
 export alias gpd = git push --dry-run
 export alias gpf = git push --force-with-lease
 export alias gpf! = git push --force
-export alias gpl = git pull
+export alias gl = git pull
 export def gpoat [] {
     git push origin --all; git push origin --tags
 }
